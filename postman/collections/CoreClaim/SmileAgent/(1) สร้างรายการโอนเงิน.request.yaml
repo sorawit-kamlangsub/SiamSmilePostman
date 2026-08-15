@@ -1,0 +1,107 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:5001/api/Transfer/Transfer/CreateTransfer' \\\r
+
+  \  -H 'accept: text/plain' \\\r
+
+  \  -H 'Content-Type: application/json-patch+json' \\\r
+
+  \  -d '[\r
+
+  \  {\r
+
+  \    \"amount\": 0,\r
+
+  \    \"transferAmount\": 0,\r
+
+  \    \"smiClaimApproveHospitalGroupId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \    \"smiClaimApproveHeaderId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \    \"receivingBankId\": 0,\r
+
+  \    \"receivingBankAccountNo\": \"string\",\r
+
+  \    \"receivingBankName\": \"string\",\r
+
+  \    \"receivingName\": \"string\",\r
+
+  \    \"receivingPhoneNumber\": \"string\",\r
+
+  \    \"receivingEmail\": \"string\",\r
+
+  \    \"receivingDate\": \"2026-06-13T08:57:06.724Z\",\r
+
+  \    \"sendingBankId\": 0,\r
+
+  \    \"sendingBankAccountNo\": \"string\",\r
+
+  \    \"sendingBankName\": \"string\",\r
+
+  \    \"sendingName\": \"string\"\r
+
+  \  }\r
+
+  ]'"
+url: "{{Endpoint}}/api/Transfer/v1/CreateTransfer"
+method: POST
+headers:
+  accept: text/plain
+  Content-Type: application/json-patch+json
+body:
+  type: json
+  content: "// {\r
+
+    //     \"totalNetPaidAmount\": 1500,\r
+
+    //     \"receivingBankId\": 3,\r
+
+    //     \"receivingBankAccountNo\": \"{{ACC_NO}}\",\r
+
+    //     \"receivingBankName\": \"ธนาคารกรุงไทย\",\r
+
+    //     \"receivingName\": \"{{ACC_NAME}}\",\r
+
+    //     \"receivingPhoneNumber\": \"{{PHONE_NO}}\",\r
+
+    //     \"referentTransactionId\": \"75577078-4623-4e8d-8689-dbbc01415574\"\r
+
+    // }\r
+
+    \r
+
+    {\r
+
+    \    \"totalNetPaidAmount\": 500,\r
+
+    \    \"receivingBankId\": 8,\r
+
+    \    \"receivingBankAccountNo\": \"Gq26WATNxspueQoYLWUoXLmAhvoP8rayJaR0I4ZuiZ0\",\r
+
+    \    \"receivingBankName\": \"กสิกรไทย\",\r
+
+    \    \"ReceivingAccountName\": \"AZSw1btU-OSNBmlcbBYKVGWcGbC-IIDjm6ANEChFXM_iJZt7ElHQicScbwG3BFFFB3SBOp2mFBR_OAO9JzkCo1HSIiBnKvCPy2vwVjiW1ug\",\r
+
+    \    \"receivingPhoneNumber\": \"K4LeKNMTT27owX9RStM7i5UC2yrZrKWtW0pKWSirK5Y\",\r
+
+    \    \"ReferenceCode\": \"78b13ffc-07da-4edb-aa49-e0a1dcf54491\",\r
+
+    \    \"claimPayListHeaderCreateDetailDTO\": [\r
+
+    \        {\r
+
+    \            \"payListDetailCode\": \"CL690800000036\",\r
+
+    \            \"amount\": 500,\r
+
+    \            \"refDetail01\": \"a8851956-7529-4be6-8a5a-9b2d9808eb82\",\r
+
+    \            \"refDetail02\": \"CC690800000063\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }\r\n"
+order: 1000

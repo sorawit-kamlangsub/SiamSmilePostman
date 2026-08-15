@@ -1,0 +1,22 @@
+$kind: collection
+description: ""
+variables:
+  supabase_service_role_api_key_0f5k: ""
+  supabase_service_role_api_key_0czw: ""
+  bearer_token_02pn: ""
+auth:
+  - id: 11993b8a-5e01-4228-a059-55c1e9f5f91c
+    type: oauth2
+    name: oauth2 auth
+    credentials:
+      clientId: admin-client_api_swaggerui
+      accessTokenUrl: https://authlogin.uatsiamsmile.com/connect/token
+      authUrl: https://authlogin.uatsiamsmile.com/connect/authorize
+      tokenName: token
+      tokenType: ""
+      addTokenTo: header
+      scope: openid profile roles ClaimFundAPI
+      redirect_uri: https://localhost:5001/swagger/oauth2-redirect.html
+      grant_type: authorization_code_with_pkce
+      accessToken: "{{token}}"
+      useBrowser: false

@@ -1,0 +1,36 @@
+$kind: http-request
+name: (2) ทดสอบผลการสร้างรายการโอนเงิน
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:44388/api/Transfer/v1/CreatedTransfer' \\\r
+
+  \  -H 'accept: */*' \\\r
+
+  \  -H 'Content-Type: application/json-patch+json' \\\r
+
+  \  -d '{\r
+
+  \  \"payListHeaderId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \  \"isSuccess\": true,\r
+
+  \  \"message\": \"string\"\r
+
+  }'"
+url: "{{Endpoint}}/api/Transfer/v1/CreatedTransfer"
+method: POST
+headers:
+  accept: "*/*"
+  Content-Type: application/json-patch+json
+body:
+  type: json
+  content: "{\r
+
+    \  \"payListHeaderId\": \"6e77ad7f-8bf5-4140-bc3a-d907d3a4fcf8\",\r
+
+    \  \"isSuccess\": true,\r
+
+    \  \"message\": \"Success\"\r
+
+    }\r\n"
+order: 2000

@@ -1,0 +1,52 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://localhost:44388/api/Transfer?plainText=Pakkie' \\\r
+
+  \  -H 'accept: */*'"
+url: "{{Endpoint}}/api/Transfer/v1/EncryptText"
+method: POST
+headers:
+  accept: "*/*"
+queryParams:
+  - key: valueText1
+    value: "1821111111"
+    disabled: true
+  - key: valueText2
+    value: ชื่อ บัญชี สำหรับทดสอบ
+    disabled: true
+  - key: valueText3
+    value: "0937894742"
+    disabled: true
+body:
+  type: json
+  content: "{\r
+
+    \    \"ReceivingBankAccountName\":\"-\",\r
+
+    \    \"ReceivingBankAccountNo\":\"-\",\r
+
+    \    \"ReceivingPhoneNumber\":\"0927670137\"\r
+
+    }"
+scripts:
+  - type: afterResponse
+    code: "// ดึงค่าจาก Response JSON\r
+
+      var jsonData = pm.response.json();\r
+
+      \r
+
+      // Set เป็น Global Variable\r
+
+      pm.globals.set(\"ACC_NO\", pm.response.json().resultText1);\r
+
+      pm.globals.set(\"ACC_NAME\", pm.response.json().resultText2);\r
+
+      pm.globals.set(\"PHONE_NO\", pm.response.json().resultText3);\r
+
+      \r
+
+      \ "
+    language: text/javascript
+order: 2000

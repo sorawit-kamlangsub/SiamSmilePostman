@@ -1,0 +1,11 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://ocrapi.uatsiamsmile.com/api/v1/ProjectID' \\\r
+
+  \  -H 'accept: application/json'"
+url: https://ocrapi.uatsiamsmile.com/api/v1/ProjectID
+method: GET
+headers:
+  accept: application/json
+order: 3000

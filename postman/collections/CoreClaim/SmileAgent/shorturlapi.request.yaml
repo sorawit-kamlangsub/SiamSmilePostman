@@ -1,0 +1,25 @@
+$kind: http-request
+url: https://shorturlapi.uatsiamsmile.com/api?withQrCode=True
+method: POST
+queryParams:
+  withQrCode: "True"
+body:
+  type: json
+  content: "{\r
+
+    \    \"url\": \"https://www.google.com\",\r
+
+    \    \"projectId\": 1,\r
+
+    \    \"expiredDate\": \"2030-10-27T09:22:09.848Z\",\r
+
+    \    \"subtypeId\": 1,\r
+
+    \    \"usePassword\": false\r
+
+    }\r\n"
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJSUzI1NiIsImtpZCI6ImEyYzI4ZmNjLTc4ZjQtNGRhYy1iYWM4LTRkMGU5MmU5M2UzNyIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE3ODYzNTMyNDQsImV4cCI6MTc4NjM1Njg0NCwiaXNzIjoiaHR0cHM6Ly9hdXRobG9naW4udWF0c2lhbXNtaWxlLmNvbSIsImF1ZCI6IkNsYWltRnVuZEFQSSIsImNsaWVudF9pZCI6ImFkbWluLWNsaWVudF9hcGlfc3dhZ2dlcnVpIiwic3ViIjoiYWIyZGZlOWItZmEzMS00ZWQ5LWI1YTUtOTIwM2YyMDExOTJlIiwiYXV0aF90aW1lIjoxNzgxNTA0NzY0LCJpZHAiOiJsb2NhbCIsInJvbGUiOiJEZXZlbG9wZXIiLCJ1c2VyX2lkIjoyOTQ3NSwiZW1wbG95ZWVfY29kZSI6IjA4NzE5IiwiZW1wbG95ZWVfZmlyc3RuYW1lIjoi4Liq4Lij4Lin4Li04LioIiwiZW1wbG95ZWVfbGFzdG5hbWUiOiLguIHguLPguKXguLHguIfguJfguKPguLHguJ7guKLguYwiLCJlbXBsb3llZV9icmFuY2hpZCI6NzAsImVtcGxveWVlX2JyYW5jaG5hbWUiOiLguKrguLPguJnguLHguIHguIfguLLguJnguYPguKvguI3guYgiLCJqdGkiOiIzODg2M0NGQkNFMTgyOUFCMjdGQTU0QjU5QTE3NEQ4NiIsInNpZCI6IjE5OEJGN0JEOTRDMUNCOTAxQjBEOEFBQzk1QkJERTYyIiwiaWF0IjoxNzg2MzUzMjQ0LCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwicm9sZXMiLCJDbGFpbUZ1bmRBUEkiXSwiYW1yIjpbInB3ZCJdfQ.ftlvJgTCf0pMXY60hUx8Bo4TGkD1k4xnDL1u5dq6A9wZOLR8mSUIwExpWLPc-DRRA3LgDQWxQ9fGudo8vDhtpaWk---9iQuuEDz4CVWaFZoE067sstO-QDk6JK0WSEYp40l4OKsOqc89TTSewwm1ohJjvmyrY4gPmk13I0ATkQig4shw4psKsAcXcik1uJou7kvn9flcnJVyPbxuzyHjUEIthEu3rvr-R1AeiC9HQoMLJ1M4CSTmM1kl2QpTvzZUGbPbiS4Pz0h7VYzeVyxXQKUtsZ3nRgAndI1WfBZA_AurdCqCXHd8TZSjNjCRBQNH3dTcKhXfP1cFy-yPI1oEtw
+order: 4000
