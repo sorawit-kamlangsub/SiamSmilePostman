@@ -2,22 +2,50 @@ $kind: collection
 name: CoreClaim
 description: ""
 variables:
-  supabase_service_role_api_key_0f5k: ""
-  supabase_service_role_api_key_0czw: ""
-  bearer_token_02pn: ""
+  - key: supabase_service_role_api_key_0f5k
+    value: ""
+    disabled: false
+  - key: supabase_service_role_api_key_0czw
+    value: ""
+    disabled: false
+  - key: bearer_token_02pn
+    value: ""
+    disabled: false
+  - key: clientsecret
+    secret: true
+    disabled: false
 auth:
-  - id: 73fbf20e-6e44-4e98-ba76-d43205d86642
-    type: oauth2
-    name: oauth2 auth
-    credentials:
-      clientId: admin-client_api_swaggerui
-      accessTokenUrl: https://authlogin.uatsiamsmile.com/connect/token
-      authUrl: https://authlogin.uatsiamsmile.com/connect/authorize
-      tokenName: token
-      tokenType: ""
-      addTokenTo: header
-      scope: openid profile roles ClaimFundAPI
-      redirect_uri: https://localhost:5001/swagger/oauth2-redirect.html
-      grant_type: authorization_code_with_pkce
-      accessToken: "{{token}}"
-      useBrowser: false
+  type: oauth2
+  credentials:
+    - key: accessToken
+      value: eyJhbGciOiJSUzI1NiIsImtpZCI6ImEyYzI4ZmNjLTc4ZjQtNGRhYy1iYWM4LTRkMGU5MmU5M2UzNyIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE3ODc5MDgxNzMsImV4cCI6MTc4NzkxMTc3MywiaXNzIjoiaHR0cHM6Ly9hdXRobG9naW4udWF0c2lhbXNtaWxlLmNvbSIsImF1ZCI6IkNsYWltRnVuZEFQSSIsImNsaWVudF9pZCI6ImFkbWluLWNsaWVudF9hcGlfc3dhZ2dlcnVpIiwic3ViIjoiOWY2YzYyNzQtNGViNC00OWI3LWE3YTktYTJmYjZlY2EwNzA5IiwiYXV0aF90aW1lIjoxNzg3OTA0MjQxLCJpZHAiOiJsb2NhbCIsInJvbGUiOlsiQWRtaW5pc3RyYXRvciIsIlNtaWxlc0luc3VyYW5jZV9DbGFpbVVuZGVyd3JpdGVyIiwiU21pbGVzSW5zdXJhbmNlX0ZpbmFuY2UiLCJEaXJlY3RUcmFuZmVyX0FkbWluIiwiRnVuZCBEb2N1bWVudF9CcmFuY2giLCJTbWlsZUNsYWltUGF5QmFja19GaW5hbmNlIiwiQkEiLCJGdW5kIERvY3VtZW50X0Z1bmQiLCJQYXlUcmFuc2Zlcl9JbnF1aXJ5IiwiQnJhbmNoTWFuYWdlbWVudF9BZG1pbiIsIkRldmVsb3BlciJdLCJ1c2VyX2lkIjoyOTIzOCwiZW1wbG95ZWVfY29kZSI6IjA4NDk4IiwiZW1wbG95ZWVfZmlyc3RuYW1lIjoi4Lia4Li44LiN4LiK4LmI4Lin4LiiIiwiZW1wbG95ZWVfbGFzdG5hbWUiOiLguYTguIrguKLguYDguIHguJXguLgiLCJlbXBsb3llZV9icmFuY2hpZCI6NzAsImVtcGxveWVlX2JyYW5jaG5hbWUiOiLguKrguLPguJnguLHguIHguIfguLLguJnguYPguKvguI3guYgiLCJqdGkiOiI4RDc2MjRCOTRDODBBREQwMDlDMDlCMDMwRTFGOTA3QiIsInNpZCI6IkIxRjNBQjA1NUREOUZCQUQ3RTVCRTQ4Q0NDNERFQTUzIiwiaWF0IjoxNzg3OTA4MTczLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwicm9sZXMiLCJDbGFpbUZ1bmRBUEkiXSwiYW1yIjpbInB3ZCJdfQ.KyRn27Wk8CaAd_zJR2TafwHNLGtzALWgePufArv4XsqB7aEnzwnxXodwQ4ADp-zYgrZ8FIGcNjuzFdTUQCmWQQW8NfrxVMt4NaHc2XFokSS5T9XgUVtiLGg_ijkXLRJsmznV0Pn3kuTF-Tln-N9Tbthnzz03jMj-ywmCIq4SFTPpSdS_S246JHzHeCFUgUfYm5WVBLf5xNEXxt-sTqk9ZjtwNDMZyR7OBpEAXnM0U0FFy1C6PQkNEZrYB4KN9lEBDYHXwdtNe6epnxzZdW509dFevl-Aoy1A78wbudna3Cmt2i4ka3FW_E5B1sszPS__hBFmU5LbXosDsPcQ86L5lQ
+    - key: tokenType
+      value: Bearer
+    - key: token_id
+      value: 59af740b-e7bb-4879-a2b8-7396f7d4220c
+    - key: timestamp
+      value: 1787908173551
+    - key: expires_in
+      value: 3600
+    - key: clientId
+      value: "{{clientsecret}}"
+    - key: accessTokenUrl
+      value: https://authlogin.uatsiamsmile.com/connect/token
+    - key: authUrl
+      value: https://authlogin.uatsiamsmile.com/connect/authorize
+    - key: tokenName
+      value: token
+    - key: addTokenTo
+      value: header
+    - key: scope
+      value: openid profile roles ClaimFundAPI
+    - key: redirect_uri
+      value: https://localhost:5001/swagger/oauth2-redirect.html
+    - key: grant_type
+      value: authorization_code_with_pkce
+    - key: useBrowser
+      value: false
+    - key: id
+      value: collection/c25ae089BeFCb70dE6BB467d/bcebdbc0-bca3-4eb0-b4e2-313671582bfa/filesystem
+    - key: id
+      value: collection/c25ae089BeFCb70dE6BB467d/bcebdbc0-bca3-4eb0-b4e2-313671582bfa/filesystem
