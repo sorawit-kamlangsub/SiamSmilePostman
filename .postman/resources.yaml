@@ -7,3 +7,9 @@ cloudResources:
     ../postman/environments/New Environment.environment.yaml: 36855597-eedb803b-330b-47f1-a4ab-ba1762b7c65c
   globals:
     ../postman/globals/workspace.globals.yaml: c687f765-dae3-4f80-8086-345136f3162c
+localResources:
+  specs:
+    - ../postman/specs/coreclaim/coreclaim.json
+resourceNameMappings:
+  specs:
+    - ../postman/specs/coreclaim/coreclaim.json: coreclaim
