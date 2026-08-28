@@ -1,0 +1,9 @@
+$kind: http-request
+name: ค้นหารายการจาก เลขที่ ClaimNo / CaseNo
+url: "{{Endpoint}}api/Setting/SearchClaimOrCase?searchDetail=ccc"
+method: GET
+headers:
+  accept: text/plain
+queryParams:
+  searchDetail: ccc
+order: 1000

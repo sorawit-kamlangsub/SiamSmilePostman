@@ -1,8 +1,0 @@
-$kind: http-request
-url: "{{Endpoint}}/api/Transfer/v1/PaymentDetails?referenceCode=522D5958-7D07-4C1F-B0F6-E3874B1E6BAD"
-method: GET
-headers:
-  accept: text/plain
-queryParams:
-  referenceCode: 522D5958-7D07-4C1F-B0F6-E3874B1E6BAD
-order: 5000

@@ -1,0 +1,9 @@
+$kind: http-request
+name: โอนเพิ่ม รายละเอียด tep(1)
+url: "{{Endpoint}}api/AdditionalTransfer/AdditionalTransferDetails?caseId=60F71A61-F3C9-47E5-9BA9-E944ECF0EC7E"
+method: GET
+headers:
+  accept: text/plain
+queryParams:
+  caseId: 60F71A61-F3C9-47E5-9BA9-E944ECF0EC7E
+order: 1000

@@ -1,0 +1,75 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:5001/api/Transfer/v1/CreatePayment' \\\r
+
+  \  -H 'accept: text/plain' \\\r
+
+  \  -H 'Content-Type: application/json-patch+json' \\\r
+
+  \  -d '[\r
+
+  \  {\r
+
+  \    \"casePayableId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \    \"grossPaidAmount\": 0,\r
+
+  \    \"withHoldingTaxAmount\": 0,\r
+
+  \    \"netPaidAmount\": 0,\r
+
+  \    \"receivingBankId\": 0,\r
+
+  \    \"receivingBankAccountNo\": \"string\",\r
+
+  \    \"receivingBankName\": \"string\",\r
+
+  \    \"receivingAccountName\": \"string\",\r
+
+  \    \"phoneNumber\": \"string\",\r
+
+  \    \"claimCase\": \"string\"\r
+
+  \  }\r
+
+  ]'"
+url: "{{Endpoint}}api/Transfer/v1/CreatePayment"
+method: POST
+headers:
+  accept: text/plain
+  Content-Type: application/json-patch+json
+body:
+  type: json
+  content: "[\r
+
+    \    {\r
+
+    \        \"casePayableId\": \"7FC12384-507B-4A36-A4AE-0724AE5FFE1C\",\r
+
+    \        \"grossPaidAmount\": 0,\r
+
+    \        \"withHoldingTaxAmount\": 0,\r
+
+    \        \"netPaidAmount\": 5.00,\r
+
+    \        \"receivingBankId\": 3,\r
+
+    \        \"receivingBankAccountNo\": \"{{ACC_NO}}\",\r
+
+    \        \"receivingBankName\": \"กรุงไทย\",\r
+
+    \        \"receivingAccountName\": \"{{ACC_NAME}}\",\r
+
+    \        \"phoneNumber\": \"{{PHONE_NO}}\",\r
+
+    \        \"claimCase\": \"CC690800000120\",\r
+
+    \        \"claimNo\" : \"CL690800000093\",\r
+
+    \        \"PayeeTypeId\" : 2\r
+
+    \    }\r
+
+    ]"
+order: 6000

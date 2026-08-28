@@ -32,7 +32,7 @@ description: "Generated from cURL: curl -X 'POST' \\\r
   \  \"transType\": \"string\"\r
 
   }'"
-url: "{{Endpoint}}/api/Transfer/v1/CreateTransferResult"
+url: "{{Endpoint}}api/Transfer/v1/CreateTransferResult"
 method: POST
 headers:
   accept: "*/*"
@@ -41,7 +41,7 @@ body:
   type: json
   content: "{\r
 
-    \  \"refCode\": \"6E77AD7F-8BF5-4140-BC3A-D907D3A4FCF8\",\r
+    \  \"refCode\": \"B419B8FE-93A2-44EB-BC66-6F610240DBC1\",\r
 
     \  \"isSucceed\": true,\r
 
@@ -64,4 +64,4 @@ body:
     \  \"transType\": \"transfer\"\r
 
     }"
-order: 3000
+order: 5000

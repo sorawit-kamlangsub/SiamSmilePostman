@@ -1,0 +1,10 @@
+$kind: http-request
+name: Monitor - แก้ไขการโอนเงิน
+url: "{{Endpoint}}api/FailTransfer/FailedPayTransferTransactionMonitor?Page=1&RecordsPerPage=10"
+method: GET
+headers:
+  accept: text/plain
+queryParams:
+  Page: "1"
+  RecordsPerPage: "10"
+order: 1000

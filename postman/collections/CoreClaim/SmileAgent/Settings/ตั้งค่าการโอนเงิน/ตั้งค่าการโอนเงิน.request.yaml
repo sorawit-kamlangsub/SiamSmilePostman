@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{Endpoint}}api/Setting/GetCurrentSetting"
+method: GET
+headers:
+  accept: text/plain
+order: 1000

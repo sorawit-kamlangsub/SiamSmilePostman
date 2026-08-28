@@ -51,57 +51,49 @@ headers:
   Content-Type: application/json-patch+json
 body:
   type: json
-  content: "// {\r
+  content: "{\r
 
-    //     \"totalNetPaidAmount\": 1500,\r
+    \    \"totalNetPaidAmount\": 50000,\r
 
-    //     \"receivingBankId\": 3,\r
+    \    \"receivingBankId\": 3,\r
 
-    //     \"receivingBankAccountNo\": \"{{ACC_NO}}\",\r
+    \    \"receivingBankAccountNo\": \"{{ACC_NO}}\",\r
 
-    //     \"receivingBankName\": \"ธนาคารกรุงไทย\",\r
+    \    \"receivingBankName\": \"ธนาคารกรุงไทย\",\r
 
-    //     \"receivingName\": \"{{ACC_NAME}}\",\r
+    \    \"receivingName\": \"{{ACC_NAME}}\",\r
 
-    //     \"receivingPhoneNumber\": \"{{PHONE_NO}}\",\r
+    \    \"receivingPhoneNumber\": \"{{PHONE_NO}}\",\r
 
-    //     \"referentTransactionId\": \"75577078-4623-4e8d-8689-dbbc01415574\"\r
-
-    // }\r
-
-    \r
-
-    {\r
-
-    \    \"totalNetPaidAmount\": 500,\r
-
-    \    \"receivingBankId\": 8,\r
-
-    \    \"receivingBankAccountNo\": \"Gq26WATNxspueQoYLWUoXLmAhvoP8rayJaR0I4ZuiZ0\",\r
-
-    \    \"receivingBankName\": \"กสิกรไทย\",\r
-
-    \    \"ReceivingAccountName\": \"AZSw1btU-OSNBmlcbBYKVGWcGbC-IIDjm6ANEChFXM_iJZt7ElHQicScbwG3BFFFB3SBOp2mFBR_OAO9JzkCo1HSIiBnKvCPy2vwVjiW1ug\",\r
-
-    \    \"receivingPhoneNumber\": \"K4LeKNMTT27owX9RStM7i5UC2yrZrKWtW0pKWSirK5Y\",\r
-
-    \    \"ReferenceCode\": \"78b13ffc-07da-4edb-aa49-e0a1dcf54491\",\r
+    \    \"referentTransactionId\": \"27b4e2f3-fda6-4b33-a1b3-5ed5418078e8\",\r
 
     \    \"claimPayListHeaderCreateDetailDTO\": [\r
 
     \        {\r
 
-    \            \"payListDetailCode\": \"CL690800000036\",\r
+    \            \"payListDetailCode\": \"CL690722000001\",\r
 
-    \            \"amount\": 500,\r
+    \            \"amount\": 25000,\r
 
-    \            \"refDetail01\": \"a8851956-7529-4be6-8a5a-9b2d9808eb82\",\r
+    \            \"refDetail01\": null,\r
 
-    \            \"refDetail02\": \"CC690800000063\"\r
+    \            \"refDetail02\": null\r
+
+    \        },\r
+
+    \        {\r
+
+    \            \"payListDetailCode\": \"CL690722000002\",\r
+
+    \            \"amount\": 25000,\r
+
+    \            \"refDetail01\": null,\r
+
+    \            \"refDetail02\": null\r
 
     \        }\r
 
     \    ]\r
 
-    }\r\n"
-order: 1000
+    }"
+order: 3000

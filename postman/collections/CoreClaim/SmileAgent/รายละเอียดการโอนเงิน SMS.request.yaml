@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{Endpoint}}api/Transfer/v1/PaymentDetails?referenceCode=DC354758-8878-4499-AF46-0AC4A7576488"
+method: GET
+headers:
+  accept: text/plain
+queryParams:
+  referenceCode: DC354758-8878-4499-AF46-0AC4A7576488
+order: 2000

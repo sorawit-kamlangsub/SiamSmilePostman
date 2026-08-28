@@ -1,0 +1,11 @@
+$kind: http-request
+name: สอบถามธนาคาร Monitor
+url: "{{Endpoint}}api/Inquiry/InquiryMonitors?searchDetail=&Page=1&RecordsPerPage=10"
+method: GET
+headers:
+  accept: text/plain
+queryParams:
+  searchDetail: ""
+  Page: "1"
+  RecordsPerPage: "10"
+order: 1000

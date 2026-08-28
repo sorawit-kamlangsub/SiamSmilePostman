@@ -1,5 +1,4 @@
-name: Globals
+name: New Environment
 values:
   - key: Endpoint
     value: ''
-    enabled: true

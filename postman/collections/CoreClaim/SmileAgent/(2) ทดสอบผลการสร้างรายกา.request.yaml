@@ -17,7 +17,7 @@ description: "Generated from cURL: curl -X 'POST' \\\r
   \  \"message\": \"string\"\r
 
   }'"
-url: "{{Endpoint}}/api/Transfer/v1/CreatedTransfer"
+url: "{{Endpoint}}api/Transfer/v1/CreatedTransfer"
 method: POST
 headers:
   accept: "*/*"
@@ -26,11 +26,11 @@ body:
   type: json
   content: "{\r
 
-    \  \"payListHeaderId\": \"6e77ad7f-8bf5-4140-bc3a-d907d3a4fcf8\",\r
+    \  \"payListHeaderId\": \"b75d63af-d9d6-4181-bbad-ea66c18ab056\",\r
 
     \  \"isSuccess\": true,\r
 
     \  \"message\": \"Success\"\r
 
     }\r\n"
-order: 2000
+order: 4000

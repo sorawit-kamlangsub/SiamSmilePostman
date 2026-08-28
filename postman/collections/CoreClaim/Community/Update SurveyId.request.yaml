@@ -1,0 +1,31 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:5001/api/Notification/UpdateSMSTransactionSurvey' \\\r
+
+  \  -H 'accept: text/plain' \\\r
+
+  \  -H 'Content-Type: application/json-patch+json' \\\r
+
+  \  -d '{\r
+
+  \  \"smStransactionId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \  \"surveyId\": 0\r
+
+  }'"
+url: "{{Endpoint}}/api/Notification/UpdateSMSTransactionSurvey"
+method: POST
+headers:
+  accept: text/plain
+  Content-Type: application/json-patch+json
+body:
+  type: json
+  content: "{\r
+
+    \  \"smStransactionId\": \"89F72D2F-92F7-4D77-B069-6EB691278A6C\",\r
+
+    \  \"surveyId\": 23423\r
+
+    }"
+order: 2000

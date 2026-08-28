@@ -5,9 +5,8 @@ variables:
   supabase_service_role_api_key_0f5k: ""
   supabase_service_role_api_key_0czw: ""
   bearer_token_02pn: ""
-  Endpoint: ""
 auth:
-  - id: 11993b8a-5e01-4228-a059-55c1e9f5f91c
+  - id: 73fbf20e-6e44-4e98-ba76-d43205d86642
     type: oauth2
     name: oauth2 auth
     credentials:
