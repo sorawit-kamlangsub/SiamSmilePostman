@@ -203,6 +203,63 @@
         ]
       }
     },
+    "/IncreaseTransfer/IncreaseTransferLimitMonitors": {
+      "get": {
+        "summary": "IncreaseTransferLimitMonitors",
+        "parameters": [
+          {
+            "name": "Page",
+            "in": "query",
+            "schema": {
+              "type": "integer"
+            },
+            "example": 1
+          },
+          {
+            "name": "RecordsPerPage",
+            "in": "query",
+            "schema": {
+              "type": "integer"
+            },
+            "example": 20
+          },
+          {
+            "name": "searchDetail",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {},
+        "tags": [
+          "SmileAgent",
+          "Settings",
+          "ขยายวงเงิน"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "page": {
+                    "type": "integer"
+                  },
+                  "recordsPerPage": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "example": {
+                "page": 0,
+                "recordsPerPage": 0
+              }
+            }
+          }
+        }
+      }
+    },
     "/Transfer/v1/PaymentDetails": {
       "get": {
         "summary": "รายละเอียดการโอนเงิน SMS",
