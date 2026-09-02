@@ -1,0 +1,17 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://localhost:5001/Notification/GetTransactionById' \\\r
+
+  \  -H 'accept: text/plain'"
+url: "{{baseUrl}}/api/Notification/GetTransactionById?payTransferTransactionId=B01E480E-F34D-45FC-AFED-F64A744F2A83"
+method: GET
+headers:
+  Content-Type: application/json
+queryParams:
+  payTransferTransactionId: B01E480E-F34D-45FC-AFED-F64A744F2A83
+body:
+  type: json
+  content: "{}"
+settings: {}
+order: 1000

@@ -1,0 +1,16 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://localhost:44385/api/UserManagement/User/UserInfoById?userId=039ae3d7-4245-406e-a831-fae03581b805' \\\r
+
+  \  -H 'accept: */*'"
+url: "{{API}}api/UserManagement/User/UserInfoById/039ae3d7-4245-406e-a831-fae03581b805"
+method: GET
+headers:
+  accept: "*/*"
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYnVuY2h1YWkuYyIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2NvdW50cnkiOiJUSCIsInVkIjoiMDM5YWUzZDctNDI0NS00MDZlLWE4MzEtZmFlMDM1ODFiODA1Iiwic2VydmVydGltZSI6IjEwLzcvMjU2OCAyMDo0NzoyNiIsImp0aSI6IjVmZDIxNGQ1LTYyOTgtNDgxZS1iYThiLTYyY2YwYTBmY2Y0OSIsInBob25lTm8iOiIwOTM3ODk0NzQyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW5pc3RyYXRvciIsImV4cCI6MTc1MjE1NjE0NiwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDAwMDAiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo0NDM4NS8ifQ.FUD9GXPMKZ1s47gS2oJaMp0Urfo4tU_lUyo3Zr4p32o
+settings: {}
+order: 3000

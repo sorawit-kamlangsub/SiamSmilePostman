@@ -1,0 +1,42 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:7127/api/UserManagement/User/Insert' \\\r
+
+  \  -H 'accept: */*' \\\r
+
+  \  -H 'Content-Type: application/json' \\\r
+
+  \  -d '{\r
+
+  \  \"username\": \"string\",\r
+
+  \  \"email\": \"user@example.com\",\r
+
+  \  \"password\": \"string\",\r
+
+  \  \"fullName\": \"string\",\r
+
+  \  \"customerId\": \"string\"\r
+
+  }'"
+url: https://localhost:44385/api/UserManagement/User/Insert
+method: POST
+headers:
+  accept: "*/*"
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"username\": \"thayart.c\",\r
+
+    \  \"email\": \"thayart.c@gmail.com\",\r
+
+    \  \"password\": \"P@ssw0rd\",\r
+
+    \  \"fullName\": \"Thayart churlek\"\r
+
+    }"
+settings: {}
+order: 2000

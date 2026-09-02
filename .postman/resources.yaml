@@ -1,15 +1,18 @@
 workspace:
-  id: bcebdbc0-bca3-4eb0-b4e2-313671582bfa
+  id: 8a93b2b8-9130-44c5-905c-992633952459
 cloudResources:
   collections:
-    ../postman/collections/CoreClaim: 36855597-15e463ec-1847-420e-b156-27df2043ea94
+    ../postman/collections/coreclaim: 1742729-2a95332f-577b-4770-8916-28033ccdc7e0
+    ../postman/collections/SmileSSurvey - External Survey API: 1742729-3de5b5ed-e91e-4f06-9f0a-326d97077809
+    ../postman/collections/OCR-API: 1742729-3c668577-9e56-4efe-bc0e-08c435d3cb5a
+    ../postman/collections/AspNetCore8: 1742729-a9b183fd-c9f8-42b7-98fc-0fd41efa23de
+    ../postman/collections/Claim Billing Request: 1742729-3b66aceb-0d3e-424c-a701-70c841a1970c
+    ../postman/collections/UniconSmartDorm: 1742729-e97028b7-23cb-4889-a811-f5b9776734d2
   environments:
-    ../postman/environments/New Environment.environment.yaml: 36855597-eedb803b-330b-47f1-a4ab-ba1762b7c65c
+    ../postman/environments/Endpoint.environment.yaml: 1742729-48577cea-fdd9-45ff-898e-0096fd89bb62
+    ../postman/environments/Beta.environment.yaml: 36855597-a1698c37-01f6-4914-86c7-ebdf7ce40dc6
+    ../postman/environments/SMI_ENV.environment.yaml: 36855597-fb4572df-4b09-44a1-bd48-05a571d9efde
   globals:
-    ../postman/globals/workspace.globals.yaml: c687f765-dae3-4f80-8086-345136f3162c
-localResources:
-  specs:
-    - ../postman/specs/coreclaim/coreclaim.json
-resourceNameMappings:
-  specs:
-    - ../postman/specs/coreclaim/coreclaim.json: coreclaim
+    ../postman/globals/workspace.globals.yaml: 3204ea72-da16-480d-8c67-d534d9f976b8
+  documents:
+    ../postman/documents/WORKSPACE-README.md: 21996a11-1167-4819-9301-f43051a5c28a

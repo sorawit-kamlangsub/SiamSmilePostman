@@ -1,5 +1,32 @@
 name: Globals
 values:
-  - key: Endpoint
-    value: ''
+  - key: API
+    value: https://localhost:44388
+    enabled: true
+  - key: Token
+    value: ""
+    enabled: true
+  - key: now
+    value: ""
+    enabled: true
+  - key: now_
+    value: ""
+    enabled: true
+  - key: ACC_NO
+    value: ""
+    enabled: true
+  - key: ACC_NAME
+    value: ""
+    enabled: true
+  - key: PHONE_NO
+    value: ""
+    enabled: true
+  - key: accountNoResult
+    value: ""
+    enabled: true
+  - key: bankNameResult
+    value: ""
+    enabled: true
+  - key: phoneNumberResult
+    value: ""
     enabled: true

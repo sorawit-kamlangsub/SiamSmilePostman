@@ -1,0 +1,12 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'DELETE' \\\r
+
+  \  'https://localhost:44385/api/UserManagement/Role/Delete/e700679f-fd38-4999-a551-750e2ec712b2' \\\r
+
+  \  -H 'accept: */*'"
+url: "{{API}}api/UserManagement/Role/Delete/65fefc7a-b841-44c3-a468-d5b2bd3d98d1"
+method: DELETE
+headers:
+  accept: "*/*"
+settings: {}
+order: 5000

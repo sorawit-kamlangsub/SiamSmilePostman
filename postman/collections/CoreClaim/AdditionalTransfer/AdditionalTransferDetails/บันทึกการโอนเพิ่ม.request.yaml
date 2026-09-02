@@ -1,0 +1,26 @@
+$kind: http-request
+url: https://localhost:5001/api/AdditionalTransfer/SaveAdditionalTransfer
+method: POST
+headers:
+  - key: accept
+    value: text/plain
+  - key: Content-Type
+    value: application/json-patch+json
+  - key: accept
+    value: text/plain
+  - key: Content-Type
+    value: application/json-patch+json
+body:
+  type: json
+  content: |-
+    {
+      "caseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "payableAmount": 0,
+      "toBankId": 0,
+      "toBankName": "string",
+      "toBankAccountNo": "string",
+      "payeeTypeId": 0,
+      "payableCategoryId": 0,
+      "payableStatusId": 0
+    }
+order: 4000

@@ -1,0 +1,24 @@
+name: Beta
+color: null
+values:
+  - key: awsRegion
+    value: us-east-1
+    enabled: true
+  - key: awsAccessKey
+    value: ""
+    enabled: true
+  - key: awsSecretKey
+    value: ""
+    enabled: true
+  - key: newrelicServiceName
+    value: some-service
+    enabled: true
+  - key: dataDogServiceName
+    value: some-service
+    enabled: true
+  - key: newRelicAPIKey
+    value: ""
+    enabled: true
+  - key: dataDogAPIKey
+    value: ""
+    enabled: true

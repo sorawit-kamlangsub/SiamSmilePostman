@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{Endpoint}}api/AdditionalTransfer/GetClaimTransactions?caseId=f2cea02b-e819-4c42-8f3d-8762892c0941"
+method: GET
+headers:
+  - key: accept
+    value: text/plain
+  - key: accept
+    value: text/plain
+queryParams:
+  caseId: f2cea02b-e819-4c42-8f3d-8762892c0941
+order: 2000

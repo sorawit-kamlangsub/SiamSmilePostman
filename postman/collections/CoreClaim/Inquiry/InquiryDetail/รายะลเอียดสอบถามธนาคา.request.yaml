@@ -1,0 +1,8 @@
+$kind: http-request
+name: รายะลเอียดสอบถามธนาคาร
+url: "{{baseUrl}}/Inquiry/InquiryDetail?PayTransferTransactionId=eccee87d-a391-4403-991d-4c4caf92df93"
+method: GET
+queryParams:
+  PayTransferTransactionId: eccee87d-a391-4403-991d-4c4caf92df93
+settings: {}
+order: 1000

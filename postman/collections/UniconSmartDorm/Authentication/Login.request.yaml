@@ -1,0 +1,26 @@
+$kind: http-request
+url: "{{API}}api/Authenticate/v1/Login"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"username\": \"it.pakdpu@gmail.com\",\r
+
+    \  \"password\": \"P@ssw0rd\"\r
+
+    }"
+scripts:
+  - type: afterResponse
+    code: "// create by kem\r
+
+      pm.test(\"Status code is 200\", function () {\r
+
+      \    let accToken = pm.response.json().accessToken;\r
+
+      \    pm.collectionVariables.set(\"accessToken\", accToken);\r
+
+      });"
+    language: text/javascript
+settings: {}
+order: 1000

@@ -1,0 +1,32 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'PUT' \\\r
+
+  \  'https://localhost:44385/api/UserManagement/Role/Update/asdasds' \\\r
+
+  \  -H 'accept: */*' \\\r
+
+  \  -H 'Content-Type: application/json' \\\r
+
+  \  -d '{\r
+
+  \  \"roleName\": \"string\",\r
+
+  \  \"id\": \"string\"\r
+
+  }'"
+url: "{{API}}api/UserManagement/Role/Update/65fefc7a-b841-44c3-a468-d5b2bd3d98d1"
+method: PUT
+headers:
+  accept: "*/*"
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"roleName\": \"Administrator\",\r
+
+    \  \"id\": \"65fefc7a-b841-44c3-a468-d5b2bd3d98d1\"\r
+
+    }"
+settings: {}
+order: 4000

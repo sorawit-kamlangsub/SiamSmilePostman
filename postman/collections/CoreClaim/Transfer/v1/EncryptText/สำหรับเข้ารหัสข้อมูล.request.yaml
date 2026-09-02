@@ -1,0 +1,20 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://localhost:44388/api/Transfer?plainText=Pakkie' \\\r
+
+  \  -H 'accept: */*'"
+url: "{{baseUrl}}/Transfer/v1/EncryptText"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "receivingBankAccountNo": "1820000002",
+      "receivingPhoneNumber": "0937894742",
+      "ReceivingBankAccountName": "ทดสอบ"
+    }
+settings: {}
+order: 1000

@@ -1,0 +1,37 @@
+$kind: collection
+description: |-
+  **รายละเอียดการใช้งาน API**
+
+  1. สำหรับ API ระบบ Claim SMI API
+      
+  2. สามารถใช้งานได้เฉพาะทีม Claim SM หรือผู้ที่เกี่ยวข้องเท่านั้น
+variables:
+  API: https://localhost:5001
+  Token: ""
+  Authorization URL: https://demoauthserver.devsiamsmile.com/connect/authorize
+  Token URL: https://demoauthserver.devsiamsmile.com/connect/token
+  client_id: admin-client_api_swaggerui
+  Scopes: openid profile roles smilesinsurance_api
+  Callback URL: https://localhost:5001/swagger/index.html
+  access_token: ""
+  code_verifier: ""
+  code_challenge: ""
+  DateTo: ""
+  UAT: https://smileinsapi.uatsiamsmile.com
+auth:
+  - id: d33f3ea3-7dc7-4b49-b669-e0dddec687a0
+    type: oauth2
+    name: oauth2 auth
+    credentials:
+      clientId: admin-client_api_swaggerui
+      accessTokenUrl: https://authlogin.uatsiamsmile.com/connect/token
+      authUrl: https://authlogin.uatsiamsmile.com/connect/authorize
+      tokenName: "{{Token}}"
+      addTokenTo: header
+      scope: claimbillingrequestresult_api
+      state: ""
+      redirect_uri: https://localhost:5001/swagger/oauth2-redirect.html
+      grant_type: authorization_code_with_pkce
+      useBrowser: false
+      username: "06016"
+      password: "251432"

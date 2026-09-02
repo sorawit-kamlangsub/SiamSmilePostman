@@ -1,0 +1,60 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'PUT' \\\r
+
+  \  'https://localhost:44385/api/ApartmentsManagement/User/UpdateApartment/3fa85f64-5717-4562-b3fc-2c963f66afa6' \\\r
+
+  \  -H 'accept: */*' \\\r
+
+  \  -H 'Content-Type: application/json' \\\r
+
+  \  -d '{\r
+
+  \  \"dormBuildingId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \  \"buildingName\": \"string\",\r
+
+  \  \"address1\": \"string\",\r
+
+  \  \"phoneNumber\": \"stringstr\",\r
+
+  \  \"subDistrictId\": 0,\r
+
+  \  \"totalRoom\": 999,\r
+
+  \  \"address2\": \"string\",\r
+
+  \  \"latitude\": 0,\r
+
+  \  \"longitude\": 0\r
+
+  }'"
+url: "{{API}}api/ApartmentsManagement/User/UpdateApartment/08D52A06-FCFA-4F08-B035-B85A85EE4EAB"
+method: PUT
+headers:
+  accept: "*/*"
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"dormBuildingId\": \"08D52A06-FCFA-4F08-B035-B85A85EE4EAB\",\r
+
+    \  \"buildingName\": \"อาคารที่ 1\",\r
+
+    \  \"address1\": \"22 หมู่ 10 ต.แม่หวาด อ.ธารโต จ.ยะลา 95170\",\r
+
+    \  \"phoneNumber\": \"0937894742\",\r
+
+    \  \"subDistrictId\": 0,\r
+
+    \  \"totalRoom\": 10,\r
+
+    \  \"address2\": \"22 หมู่ 10 ต.แม่หวาด อ.ธารโต จ.ยะลา 95170\",\r
+
+    \  \"latitude\": 14.077752533778543,\r
+
+    \  \"longitude\":  100.59414346184235\r
+
+    }\r\n"
+settings: {}
+order: 3000

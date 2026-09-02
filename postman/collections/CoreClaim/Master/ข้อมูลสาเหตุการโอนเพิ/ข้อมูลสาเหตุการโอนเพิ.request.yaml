@@ -1,0 +1,7 @@
+$kind: http-request
+name: ข้อมูลสาเหตุการโอนเพิ่ม
+url: "{{Endpoint}}api/Masters/GetAdjustmentReasons"
+method: GET
+headers:
+  accept: text/plain
+order: 1000

@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{API}}api/UserManagement/User/Select?pageNumber=1&pageSize=10"
+method: GET
+queryParams:
+  pageNumber: "1"
+  pageSize: "10"
+settings: {}
+order: 1000

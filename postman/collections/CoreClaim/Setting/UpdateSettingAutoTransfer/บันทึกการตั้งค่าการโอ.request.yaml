@@ -1,0 +1,14 @@
+$kind: http-request
+name: บันทึกการตั้งค่าการโอนเงิน
+url: "{{baseUrl}}/Setting/UpdateSettingAutoTransfer"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "paytransferSettingId": "AF40D89D-3267-4FF9-AE98-EF361D96EFF1"
+    }
+settings: {}
+order: 1000

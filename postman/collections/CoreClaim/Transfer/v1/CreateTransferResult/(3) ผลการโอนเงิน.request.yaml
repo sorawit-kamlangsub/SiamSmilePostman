@@ -1,0 +1,67 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:44388/api/Transfer/v1/CreateTransferResult' \\\r
+
+  \  -H 'accept: */*' \\\r
+
+  \  -H 'Content-Type: application/json-patch+json' \\\r
+
+  \  -d '{\r
+
+  \  \"refCode\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \  \"isSucceed\": true,\r
+
+  \  \"transRefNo\": \"string\",\r
+
+  \  \"statusBank\": \"string\",\r
+
+  \  \"description\": \"string\",\r
+
+  \  \"descriptionTh\": \"string\",\r
+
+  \  \"transferDate\": \"2026-06-22T08:18:39.962Z\",\r
+
+  \  \"updatedDate\": \"2026-06-22T08:18:39.962Z\",\r
+
+  \  \"payResultStatusId\": 0,\r
+
+  \  \"payResultDescription\": \"string\",\r
+
+  \  \"transType\": \"string\"\r
+
+  }'"
+url: "{{baseUrl}}/Transfer/v1/CreateTransferResult"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"refCode\": \"B419B8FE-93A2-44EB-BC66-6F610240DBC1\",\r
+
+    \  \"isSucceed\": true,\r
+
+    \  \"transRefNo\": \"TR671000000003\",\r
+
+    \  \"statusBank\": \"IC000\", // 004\r
+
+    \  \"description\": \"Payment is Executed Successfully\",\r
+
+    \  \"descriptionTh\": \"การทำรายการชำระเงินของท่านเสร็จสมบูรณ์\",\r
+
+    \  \"transferDate\": \"2026-06-22T08:18:39.962Z\",\r
+
+    \  \"updatedDate\": \"2026-06-22T08:18:39.962Z\",\r
+
+    \  \"payResultStatusId\": 2,\r
+
+    \  \"payResultDescription\": \"สำเร็จ\",\r
+
+    \  \"transType\": \"transfer\"\r
+
+    }"
+settings: {}
+order: 1000

@@ -1,0 +1,7 @@
+$kind: http-request
+name: ข้อมูลสถานะการโอนเงิน (Transfer Status)
+url: "{{Endpoint}}api/Masters/GetTransferStatuses"
+method: GET
+headers:
+  accept: text/plain
+order: 2000

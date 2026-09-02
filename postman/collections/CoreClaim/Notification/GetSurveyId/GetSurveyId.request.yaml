@@ -1,0 +1,10 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://localhost:5001/api/Notification/GetSurveyId' \\\r
+
+  \  -H 'accept: text/plain'"
+url: "{{baseUrl}}/Notification/GetSurveyId"
+method: GET
+settings: {}
+order: 1000

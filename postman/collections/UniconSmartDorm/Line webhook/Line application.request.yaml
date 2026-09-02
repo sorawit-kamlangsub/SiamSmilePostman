@@ -1,0 +1,38 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:44385/api/LineWebhook/LineWebhook/PostAsync' \\\r
+
+  \  -H 'accept: */*' \\\r
+
+  \  -H 'Content-Type: application/json' \\\r
+
+  \  -d '\"string\"'"
+url: "{{API}}api/LineWebhook/LineWebhook/PostAsync"
+method: POST
+headers:
+  accept: "*/*"
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"events\": [\r
+
+    \    {\r
+
+    \      \"replyToken\": \"abcd1234\",\r
+
+    \      \"message\": {\r
+
+    \        \"text\": \"ดูบิลเดือนนี้\"\r
+
+    \      }\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+settings: {}
+order: 1000

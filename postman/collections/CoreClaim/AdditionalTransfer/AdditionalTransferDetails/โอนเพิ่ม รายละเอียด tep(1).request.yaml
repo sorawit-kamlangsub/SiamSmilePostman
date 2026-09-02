@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{Endpoint}}api/AdditionalTransfer/AdditionalTransferDetails?CaseId=f2cea02b-e819-4c42-8f3d-8762892c0941"
+method: GET
+queryParams:
+  CaseId: f2cea02b-e819-4c42-8f3d-8762892c0941
+settings: {}
+order: 1000

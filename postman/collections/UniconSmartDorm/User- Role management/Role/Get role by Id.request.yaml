@@ -1,0 +1,12 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://localhost:7127/api/UserManagement/Role/121212/Select' \\\r
+
+  \  -H 'accept: */*'"
+url: https://localhost:44385/api/UserManagement/Role/121212/Select
+method: GET
+headers:
+  accept: "*/*"
+settings: {}
+order: 2000

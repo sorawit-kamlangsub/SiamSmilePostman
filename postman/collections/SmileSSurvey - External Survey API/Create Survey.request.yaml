@@ -1,0 +1,48 @@
+$kind: http-request
+description: สร้าง survey จาก formId และรับ surveyToken สำหรับ customer-facing flow
+url: "{{baseUrl}}/api/external/surveys"
+method: POST
+headers:
+  Content-Type: application/json
+  X-Client-Id: "{{clientId}}"
+  X-Nonce: "{{nonce}}"
+  X-Signature: "{{signature}}"
+body:
+  type: json
+  content: "{\r\n    \"formId\": 1\r\n}"
+scripts:
+  - type: beforeRequest
+    code: |-
+      const clientId = pm.collectionVariables.get('clientId');
+      const secret = pm.collectionVariables.get('secret');
+      const nonce = pm.variables.replaceIn('{{$guid}}').replace(/-/g, '');
+      const body = pm.request.body && pm.request.body.raw ? pm.request.body.raw : '';
+
+      // ใช้ HMAC signature แบบเบาสำหรับ External API
+      // raw format ต้องตรงกับฝั่ง API: METHOD + path + nonce + body
+      const raw = [
+        pm.request.method.toUpperCase(),
+        '/api/external/surveys',
+        nonce,
+        body
+      ].join('\n');
+
+      const signature = CryptoJS.HmacSHA256(raw, secret).toString(CryptoJS.enc.Base64);
+
+      pm.request.headers.upsert({ key: 'X-Client-Id', value: clientId });
+      pm.request.headers.upsert({ key: 'X-Nonce', value: nonce });
+      pm.request.headers.upsert({ key: 'X-Signature', value: signature });
+    language: text/javascript
+  - type: afterResponse
+    code: |-
+      pm.test('Create survey response is successful', function () {
+        pm.expect(pm.response.code).to.be.oneOf([200, 201]);
+      });
+
+      const json = pm.response.json();
+      if (json && json.data && json.data.surveyToken) {
+        pm.collectionVariables.set('surveyToken', json.data.surveyToken);
+      }
+    language: text/javascript
+settings: {}
+order: 1000

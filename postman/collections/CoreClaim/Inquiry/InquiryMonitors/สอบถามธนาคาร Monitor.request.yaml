@@ -1,0 +1,9 @@
+$kind: http-request
+url: "{{Endpoint}}api/Inquiry/InquiryMonitors?searchDetail=&Page=1&RecordsPerPage=10"
+method: GET
+queryParams:
+  searchDetail: ""
+  Page: "1"
+  RecordsPerPage: "10"
+settings: {}
+order: 1000

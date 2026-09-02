@@ -1,0 +1,15 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://localhost:7127/api/UserManagement/Role/Selects?pageNumber=1&pageSize=1' \\\r
+
+  \  -H 'accept: */*'"
+url: https://localhost:44385/api/UserManagement/Role/Selects?pageNumber=1&pageSize=10
+method: GET
+headers:
+  accept: "*/*"
+queryParams:
+  pageNumber: "1"
+  pageSize: "10"
+settings: {}
+order: 1000

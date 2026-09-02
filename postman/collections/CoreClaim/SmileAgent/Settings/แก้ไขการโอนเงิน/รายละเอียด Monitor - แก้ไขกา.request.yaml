@@ -1,9 +1,0 @@
-$kind: http-request
-name: รายละเอียด Monitor - แก้ไขการโอนเงิน
-url: "{{Endpoint}}api/FailTransfer/FailedPayTransferTransactionDetail?PayTransferTransactionId=8518FC52-055D-41EC-9F31-9B5B866FCB32"
-method: GET
-headers:
-  accept: text/plain
-queryParams:
-  PayTransferTransactionId: 8518FC52-055D-41EC-9F31-9B5B866FCB32
-order: 2000

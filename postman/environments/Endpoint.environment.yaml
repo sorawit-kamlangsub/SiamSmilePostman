@@ -1,0 +1,6 @@
+name: Endpoint
+color: null
+values:
+  - key: Endpoint
+    value: ""
+    enabled: true

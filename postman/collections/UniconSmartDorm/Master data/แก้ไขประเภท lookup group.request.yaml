@@ -1,0 +1,32 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'PUT' \\\r
+
+  \  'https://localhost:44385/api/MasterDataManagement/Master/UpdateMasterGroup' \\\r
+
+  \  -H 'accept: */*' \\\r
+
+  \  -H 'Content-Type: application/json' \\\r
+
+  \  -d '{\r
+
+  \  \"masterGroupName\": \"string\",\r
+
+  \  \"masterGroupId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\"\r
+
+  }'"
+url: "{{API}}api/MasterDataManagement/Master/UpdateMasterGroup/6028835d-bc32-4cad-83a3-877500bf1c97"
+method: PUT
+headers:
+  accept: "*/*"
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"masterGroupName\": \"ข้อมูลเจ้าหน้าที่\",\r
+
+    \  \"masterGroupId\": \"6028835d-bc32-4cad-83a3-877500bf1c97\"\r
+
+    }"
+settings: {}
+order: 5000

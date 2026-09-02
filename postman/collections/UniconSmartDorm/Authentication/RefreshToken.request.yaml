@@ -1,0 +1,46 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:44385/api/Authenticate/v1/RefreshToken' \\\r
+
+  \  -H 'accept: */*' \\\r
+
+  \  -H 'Content-Type: application/json' \\\r
+
+  \  -d '{\r
+
+  \  \"refreshUserToken\": \"string\"\r
+
+  }'"
+url: "{{API}}api/Authenticate/v1/RefreshToken"
+method: POST
+headers:
+  accept: "*/*"
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"refreshUserToken\": \"BQHFe56HC9oKkzNapAQF6tfv/u/jxEpA/qY4HLe9rwbMLK9rWnvpwHrNCca/6a1c/EUhbn2AgQLLy8gHcISthA==\"\r
+
+    }"
+scripts:
+  - type: afterResponse
+    code: "// Assuming the accessToken is in the response body\r
+
+      pm.test(\"Status code is 200\", function () {\r
+
+      \    const jsonData = pm.response.json();\r
+
+      \    const accessToken = jsonData.accessToken;\r
+
+      \r
+
+      \    // Optionally, set it as an environment variable\r
+
+      \    pm.collectionVariables.set(\"accessToken\", accessToken);\r
+
+      });\r\n"
+    language: text/javascript
+settings: {}
+order: 2000

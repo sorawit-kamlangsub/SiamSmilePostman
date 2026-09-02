@@ -1,0 +1,12 @@
+$kind: http-request
+name: ข้อมูลสาเหตุการโอนเพิ่ม By Id
+url: "{{Endpoint}}api/Masters/GetAdjustmentReasonById?AdjustmentReasonId=2"
+method: GET
+headers:
+  - key: accept
+    value: text/plain
+  - key: accept
+    value: text/plain
+queryParams:
+  AdjustmentReasonId: "2"
+order: 2000

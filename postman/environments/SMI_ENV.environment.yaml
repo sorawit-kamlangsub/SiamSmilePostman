@@ -1,0 +1,6 @@
+name: SMI_ENV
+color: null
+values:
+  - key: now
+    value: 2025-02-11
+    enabled: true

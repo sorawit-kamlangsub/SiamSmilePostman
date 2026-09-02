@@ -1,0 +1,17 @@
+$kind: http-request
+name: Get รายการ master ในรูปแบบของ lookup Detail
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://localhost:44385/api/MasterDataManagement/Master/GetAllData?pageNumber=1&pageSize=10&masterGroupId=1' \\\r
+
+  \  -H 'accept: */*'"
+url: "{{API}}api/MasterDataManagement/Master/GetLookups?pageNumber=1&pageSize=5&masterGroupId=9e4aebed-e6b6-4531-994c-07f2853bf58d"
+method: GET
+headers:
+  accept: "*/*"
+queryParams:
+  pageNumber: "1"
+  pageSize: "5"
+  masterGroupId: 9e4aebed-e6b6-4531-994c-07f2853bf58d
+settings: {}
+order: 1000

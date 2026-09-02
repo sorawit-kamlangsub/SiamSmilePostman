@@ -1,0 +1,14 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://localhost:44385/Config/GetSCriptAdds' \\\r
+
+  \  -H 'accept: */*'"
+url: "{{API}}Config/GetSCriptAdds?"
+method: GET
+headers:
+  accept: "*/*"
+queryParams:
+  "": null
+settings: {}
+order: 1000

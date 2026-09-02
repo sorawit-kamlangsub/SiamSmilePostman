@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{baseUrl}}/Transfer/v1/PaymentDetails?referenceCode=DC354758-8878-4499-AF46-0AC4A7576488"
+method: GET
+queryParams:
+  referenceCode: DC354758-8878-4499-AF46-0AC4A7576488
+settings: {}
+order: 1000

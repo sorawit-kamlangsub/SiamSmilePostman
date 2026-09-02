@@ -1,0 +1,360 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:44385/api/ApartmentsManagement/User/AddApartment' \\\r
+
+  \  -H 'accept: */*' \\\r
+
+  \  -H 'Content-Type: application/json' \\\r
+
+  \  -d '{\r
+
+  \  \"dormBuildingId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \  \"customerId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \  \"buildingName\": \"string\",\r
+
+  \  \"address1\": \"string\",\r
+
+  \  \"phoneNumber\": \"string\",\r
+
+  \  \"subDistrictId\": 0,\r
+
+  \  \"totalRoom\": 0,\r
+
+  \  \"isActive\": true,\r
+
+  \  \"createdDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \  \"createdByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \  \"updatedDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \  \"updatedByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \  \"address2\": \"string\",\r
+
+  \  \"latitude\": 0,\r
+
+  \  \"longitude\": 0,\r
+
+  \  \"customer\": {\r
+
+  \    \"customerId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \    \"userId\": \"string\",\r
+
+  \    \"referenceCustomerId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \    \"customerTypeId\": 0,\r
+
+  \    \"genderTypeId\": 0,\r
+
+  \    \"firstNameEn\": \"string\",\r
+
+  \    \"firstName\": \"string\",\r
+
+  \    \"lastNameEn\": \"string\",\r
+
+  \    \"lastName\": \"string\",\r
+
+  \    \"nickName\": \"string\",\r
+
+  \    \"idCard\": \"string\",\r
+
+  \    \"phoneNumber1\": \"string\",\r
+
+  \    \"phoneNumber2\": \"string\",\r
+
+  \    \"address1\": \"string\",\r
+
+  \    \"address2\": \"string\",\r
+
+  \    \"subDistrictId\": 0,\r
+
+  \    \"contactName\": \"string\",\r
+
+  \    \"contactNumber\": \"string\",\r
+
+  \    \"occupation\": \"string\",\r
+
+  \    \"isActive\": true,\r
+
+  \    \"createdDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \    \"createdByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \    \"updatedDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \    \"updatedByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \    \"packageId\": 0,\r
+
+  \    \"bankAccounts\": [\r
+
+  \      {\r
+
+  \        \"bankAccountId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \        \"customerId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \        \"bankId\": 0,\r
+
+  \        \"bankAccountNumber\": \"string\",\r
+
+  \        \"bankAccountName\": \"string\",\r
+
+  \        \"isActive\": true,\r
+
+  \        \"createdDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \        \"createdByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \        \"updatedDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \        \"updatedByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \        \"customer\": \"string\"\r
+
+  \      }\r
+
+  \    ],\r
+
+  \    \"customerDocuments\": [\r
+
+  \      {\r
+
+  \        \"customerDocumentId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \        \"customerId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \        \"documentTypeId\": 0,\r
+
+  \        \"documentName\": \"string\",\r
+
+  \        \"documentPathFile\": \"string\",\r
+
+  \        \"isActive\": true,\r
+
+  \        \"createdDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \        \"createdByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \        \"updatedDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \        \"updatedByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \        \"customer\": \"string\"\r
+
+  \      }\r
+
+  \    ],\r
+
+  \    \"dormBuildings\": [\r
+
+  \      \"string\"\r
+
+  \    ]\r
+
+  \  },\r
+
+  \  \"dormRooms\": [\r
+
+  \    {\r
+
+  \      \"dormRoomId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \      \"dormBuildingId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \      \"roomName\": \"string\",\r
+
+  \      \"periodTypeId\": 0,\r
+
+  \      \"floor\": 0,\r
+
+  \      \"roomStatusId\": 0,\r
+
+  \      \"roomTypeId\": 0,\r
+
+  \      \"roomAmout\": 0,\r
+
+  \      \"roomService\": \"string\",\r
+
+  \      \"isActive\": true,\r
+
+  \      \"createdDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \      \"createdByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \      \"updatedDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \      \"updatedByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \      \"dormBuilding\": \"string\",\r
+
+  \      \"dormRoomContacts\": [\r
+
+  \        {\r
+
+  \          \"dormRoomContactId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \          \"customerId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \          \"dormRoomId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \          \"contactDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \          \"contactExpire\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \          \"contactStatusId\": 0,\r
+
+  \          \"dateIn\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \          \"dateOut\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \          \"roomAmout\": 0,\r
+
+  \          \"depositAmount\": 0,\r
+
+  \          \"bailAmount\": 0,\r
+
+  \          \"isActive\": true,\r
+
+  \          \"createdDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \          \"createdByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \          \"updatedDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \          \"updatedByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \          \"dormRoom\": \"string\",\r
+
+  \          \"dormRoomElectrics\": [\r
+
+  \            {\r
+
+  \              \"dormRoomElectricId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \              \"dormRoomContactId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \              \"startElectricUnit\": 0,\r
+
+  \              \"endElectricUnit\": 0,\r
+
+  \              \"isActive\": true,\r
+
+  \              \"createdDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \              \"createdByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \              \"updatedDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \              \"updatedByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \              \"dormRoomContact\": \"string\"\r
+
+  \            }\r
+
+  \          ],\r
+
+  \          \"dormRoomTransactions\": [\r
+
+  \            {\r
+
+  \              \"dormRoomTransactionId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \              \"dormRoomContactId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \              \"transactionTypeId\": 0,\r
+
+  \              \"fromId\": 0,\r
+
+  \              \"toId\": 0,\r
+
+  \              \"fromDetail\": \"string\",\r
+
+  \              \"toDetail\": \"string\",\r
+
+  \              \"isActive\": true,\r
+
+  \              \"createdDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \              \"createdByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \              \"updatedDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \              \"updatedByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \              \"dormRoomContact\": \"string\"\r
+
+  \            }\r
+
+  \          ],\r
+
+  \          \"dormRoomWaters\": [\r
+
+  \            {\r
+
+  \              \"dormRoomwaterId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \              \"dormRoomContactId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \              \"startWaterUnit\": 0,\r
+
+  \              \"endWaterUnit\": 0,\r
+
+  \              \"isActive\": true,\r
+
+  \              \"createdDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \              \"createdByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \              \"updatedDate\": \"2025-08-10T08:13:28.967Z\",\r
+
+  \              \"updatedByUserId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r
+
+  \              \"dormRoomContact\": \"string\"\r
+
+  \            }\r
+
+  \          ]\r
+
+  \        }\r
+
+  \      ]\r
+
+  \    }\r
+
+  \  ]\r
+
+  }'"
+url: "{{API}}api/ApartmentsManagement/User/AddApartment"
+method: POST
+headers:
+  accept: "*/*"
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"buildingName\": \"อาคารที่ 2 ทดสอบ\",\r
+
+    \  \"address1\": \"22 หมู่ 10 ต.แม่หวาด อ.ธารโต จ.ยะลา 95170\",\r
+
+    \  \"phoneNumber\": \"0937894742\",\r
+
+    \  \"subDistrictId\": 0,\r
+
+    \  \"totalRoom\": 4,\r
+
+    \  \"address2\": \"22 หมู่ 10 ต.แม่หวาด อ.ธารโต จ.ยะลา 95170\",\r
+
+    \  \"latitude\": 14.077752533778543,\r
+
+    \  \"longitude\":  100.59414346184235\r
+
+    }"
+settings: {}
+order: 2000

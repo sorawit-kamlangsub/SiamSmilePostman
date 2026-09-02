@@ -1,0 +1,13 @@
+$kind: http-request
+name: https://prmapi.siamsmile.co.th/api/monitor/summaryheaderdirectdebit
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://prmapi.siamsmile.co.th/api/monitor/summaryheaderdirectdebit' \\\r
+
+  \  -H 'accept: application/json;odata.metadata=minimal;odata.streaming=true'"
+url: https://prmapi.siamsmile.co.th/api/monitor/summaryheaderdirectdebit
+method: GET
+headers:
+  accept: application/json;odata.metadata=minimal;odata.streaming=true
+settings: {}
+order: 3000

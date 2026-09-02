@@ -1,0 +1,12 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://localhost:44385/api/Home/Apartments/GetApartments' \\\r
+
+  \  -H 'accept: */*'"
+url: "{{API}}api/Home/Apartments/GetApartments"
+method: GET
+headers:
+  accept: "*/*"
+settings: {}
+order: 1000

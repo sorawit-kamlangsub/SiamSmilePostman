@@ -1,0 +1,15 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://localhost:44385/api/UsedLogs/Used/Log/GetUsedLogs?pageNumber=1&pageSize=100' \\\r
+
+  \  -H 'accept: */*'"
+url: "{{API}}api/UsedLogs/Used/Log/GetUsedLogs?pageNumber=1&pageSize=10"
+method: GET
+headers:
+  accept: "*/*"
+queryParams:
+  pageNumber: "1"
+  pageSize: "10"
+settings: {}
+order: 3000

@@ -1,0 +1,15 @@
+$kind: http-request
+name: http://operation.siamsmile.co.th:9238/api/Quartz/downloadfileinsftp
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'http://operation.siamsmile.co.th:9238/api/Quartz/downloadfileinsftp' \\\r
+
+  \  -H 'accept: text/plain' \\\r
+
+  \  -d ''"
+url: http://operation.siamsmile.co.th:9238/api/Quartz/downloadfileinsftp
+method: POST
+headers:
+  accept: text/plain
+settings: {}
+order: 3000

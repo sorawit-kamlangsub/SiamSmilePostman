@@ -1,0 +1,14 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:5001/api/Quartz/downloadfileinsftp' \\\r
+
+  \  -H 'accept: text/plain' \\\r
+
+  \  -d ''"
+url: https://localhost:5001/api/Quartz/downloadfileinsftp
+method: POST
+headers:
+  accept: text/plain
+settings: {}
+order: 1000

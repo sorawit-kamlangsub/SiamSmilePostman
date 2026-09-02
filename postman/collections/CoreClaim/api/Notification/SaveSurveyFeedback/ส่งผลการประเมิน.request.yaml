@@ -1,0 +1,51 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:5001/api/Notification/SaveSurveyFeedback' \\\r
+
+  \  -H 'accept: text/plain' \\\r
+
+  \  -H 'Content-Type: application/json-patch+json' \\\r
+
+  \  -d '{\r
+
+  \  \"surveyId\": 0,\r
+
+  \  \"answersRequest\": \"string\"\r
+
+  }'"
+url: "{{baseUrl}}/api/Notification/SaveSurveyFeedback"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "surveyId": 62876,
+      "answersRequest": {
+        "answers": [
+          {
+            "surveyQuestionId": 69103,
+            "surveyAnswerIds": [
+              104377
+            ]
+          },
+          {
+            "surveyQuestionId": 69104,
+            "surveyAnswerIds": [
+              104384,
+              104382
+            ],
+            "answerMore": "test"
+          },
+          {
+            "surveyQuestionId": 69105,
+            "surveyAnswerIds": [],
+            "answerMore": ""
+          }
+        ]
+      }
+    }
+settings: {}
+order: 1000

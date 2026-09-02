@@ -1,0 +1,28 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:7127/api/UserManagement/Role/Insert' \\\r
+
+  \  -H 'accept: */*' \\\r
+
+  \  -H 'Content-Type: application/json' \\\r
+
+  \  -d '{\r
+
+  \  \"roleName\": \"string\"\r
+
+  }'"
+url: "{{API}}api/UserManagement/Role/Insert"
+method: POST
+headers:
+  accept: "*/*"
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"roleName\": \"RoleForTest\"\r
+
+    }"
+settings: {}
+order: 3000

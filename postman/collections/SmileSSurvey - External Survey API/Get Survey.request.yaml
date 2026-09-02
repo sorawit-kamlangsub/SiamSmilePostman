@@ -1,0 +1,6 @@
+$kind: http-request
+description: ดึง questions/answers จาก surveyToken เพื่อ render แบบสอบถาม
+url: "{{baseUrl}}/api/external/surveys/{{surveyToken}}"
+method: GET
+settings: {}
+order: 2000

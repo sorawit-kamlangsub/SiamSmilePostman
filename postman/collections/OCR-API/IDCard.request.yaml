@@ -1,0 +1,32 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://ocrapi.siamsmile.co.th/api/v1/upload/id-card' \\\r
+
+  \  -H 'accept: application/json' \\\r
+
+  \  -H 'Content-Type: multipart/form-data' \\\r
+
+  \  -F 'project_id=1' \\\r
+
+  \  -F 'file=@Screenshot 2026-06-26 091518.png;type=image/png'"
+url: https://ocrapi.siamsmile.co.th/api/v1/upload/id-card
+method: POST
+headers:
+  accept: application/json
+body:
+  type: formdata
+  content:
+    - type: text
+      key: project_id
+      value: "1"
+    - type: file
+      key: file
+      src: /C:/Users/NB-66-08-03/Pictures/Screenshots/Screenshot 2026-06-26 091518.png
+      contentType: image/png
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJSUzI1NiIsImtpZCI6ImUwMjVjMWJlLTMzMTItNGQ4My1hNDFmLTk1NzM0MThiZTI3ZSIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE3ODI4MDY0MDIsImV4cCI6MTc4MjgxMDAwMiwiaXNzIjoiaHR0cHM6Ly9vYXV0aGxvZ2luLnNpYW1zbWlsZS5jby50aCIsImF1ZCI6WyJkb2NzdG9yYWdlX2FwaSIsImNsYWltb25saW5ldjJfYXBpIl0sImNsaWVudF9pZCI6ImNlYzdmN2EyLTljMDUtNDIxNS04M2JiLWYzYTRhMjNhOTVmOSIsInN1YiI6IjlmNmM2Mjc0LTRlYjQtNDliNy1hN2E5LWEyZmI2ZWNhMDcwOSIsImF1dGhfdGltZSI6MTc4Mjc4Mjg0NSwiaWRwIjoibG9jYWwiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIwODQ5OCIsInJvbGUiOlsiUHJlbWl1bV9Vc2VyIiwiV2FsbGV0IFVzZXIiLCJEZXZlbG9wZXIiLCJQQUNvbW11bml0eV9NTyIsIlBvd2VyQklfR3JvdXAwIiwiUHJlbWl1bV9PcmRlcl9Vc2VyIiwiQWRtaW5pc3RyYXRvciIsIlNtaWxlc0luc3VyYW5jZV9DbGFpbSIsIlBldHR5Q2FzaF9Vc2VyIl0sInVzZXJfaWQiOjI5MjM4LCJlbXBsb3llZV9jb2RlIjoiMDg0OTgiLCJlbXBsb3llZV9maXJzdG5hbWUiOiLguJrguLjguI3guIrguYjguKfguKIiLCJlbXBsb3llZV9sYXN0bmFtZSI6IuC5hOC4iuC4ouC5gOC4geC4leC4uCIsImVtcGxveWVlX2JyYW5jaGlkIjo3MCwiZW1wbG95ZWVfYnJhbmNobmFtZSI6IuC4quC4s-C4meC4seC4geC4h-C4suC4meC5g-C4q-C4jeC5iCIsIlVzZXJuYW1lIjoiMDg0OTgiLCJFbXBsb3llZV9JRCI6MTQyMzYyLCJFbXBsb3llZUNvZGUiOiIwODQ5OCIsIlBlcnNvbl9JRCI6MTg0MDY3MiwiRnVsbE5hbWUiOiLguJrguLjguI3guIrguYjguKfguKIg4LmE4LiK4Lii4LmA4LiB4LiV4Li4IiwiRmlyc3ROYW1lIjoi4Lia4Li44LiN4LiK4LmI4Lin4LiiIiwiTGFzdE5hbWUiOiLguYTguIrguKLguYDguIHguJXguLgiLCJCcmFuY2hfSUQiOjcwLCJCcmFuY2hEZXRhaWwiOiLguKrguLPguJnguLHguIHguIfguLLguJnguYPguKvguI3guYgiLCJBcmVhX0lEIjo5LCJBcmVhRGV0YWlsIjoi4Liq4Liz4LiZ4Lix4LiB4LiH4Liy4LiZ4LmD4Lir4LiN4LmIIiwiRGVwYXJ0bWVudF9JRCI6NywiRGVwYXJ0bWVudERldGFpbCI6IuC4nuC4seC4kuC4meC4suC4o-C4sOC4muC4miIsIkVtcGxveWVlVGVhbV9JRCI6OSwiRW1wbG95ZWVUZWFtRGV0YWlsIjoi4LmB4Lic4LiZ4LiB4Lie4Lix4LiS4LiZ4Liy4Lij4Liw4Lia4LiaIChCdXNpbmVzcyBEZXZlbG9wbWVudCkiLCJqdGkiOiI4MzQwQTI4MDcwOTBGMENFNjJGQzA1NkFFRUUzOTYwQyIsInNpZCI6Ijc4QzU3NEM3NUNBNUYzRjkzOEQxMzE3RjA3RkZCQkE0IiwiaWF0IjoxNzgyODA2NDAyLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiZW1haWwiLCJyb2xlcyIsImVtcGxveWVlX3Byb2ZpbGUiLCJlbXBsb3llZV9icmFuY2giLCJlbXBsb3llZV9kZXBhcnRtZW50IiwiZW1wbG95ZWVfdGVhbSIsImRvY3N0b3JhZ2VfYXBpIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbInB3ZCJdfQ.sR_peAM-4a4hIHlAO4kNG8fiPe3mxUXMakXHMaa4n3rQUfl8saIaStVrDWgkuJUXlg1LAVX8Jty-o6kkvfF4oqO4yIsADOawR6QjFiC-Q4FMhVUnti75WABKQAYaqof78ri-Gv23eMtXR-qVGk5zzUtzD87h4UyJ-S5Tsf-yVTyFBxVj_pLzoHZqEKgxOOE7H9vjl0rSkNNRRtLNffjwA3XhK_TV5oVl4SwfTr1YaXuvhhX-0QRSOopuO0Hh_f3zVbhcAWsP5fkPvbwtx4HA_tVH4aDdbgVMcMsttaCrZjQxySB0fH-ALNLqRIsx1Hze1Q_h94Dud0iIrp9Cc8L50A; SiamsmileRefreshToken=9B1C08C7E27D576376D544716C69BDDC62D7DFFA53EA296ED051F30D7BD13A50
+settings: {}
+order: 2000

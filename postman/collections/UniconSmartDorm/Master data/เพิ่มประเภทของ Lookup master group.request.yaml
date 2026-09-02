@@ -1,0 +1,28 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'POST' \\\r
+
+  \  'https://localhost:44385/api/MasterDataManagement/Master/AddMasterGroup' \\\r
+
+  \  -H 'accept: */*' \\\r
+
+  \  -H 'Content-Type: application/json' \\\r
+
+  \  -d '{\r
+
+  \  \"masterGroupName\": \"string\"\r
+
+  }'"
+url: "{{API}}api/MasterDataManagement/Master/AddMasterGroup"
+method: POST
+headers:
+  accept: "*/*"
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"masterGroupName\": \"ข้อมูล master group \"\r
+
+    }"
+settings: {}
+order: 3000

@@ -1,0 +1,7 @@
+$kind: collection
+description: Postman collection สำหรับทดสอบ External Survey API โดย generate HMAC signature อัตโนมัติสำหรับ create survey
+variables:
+  baseUrl: https://uatsurvey.siamsmile.co.th
+  clientId: core-claim
+  secret: 1GM2fD61/ZpEA44VSMoMZ3oKbWBGfSSqesBm8MkMOPk=
+  surveyToken: ""

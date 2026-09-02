@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{baseUrl}}/FailTransfer/FailedPayTransferTransactionMonitor?Page=1&RecordsPerPage=10"
+method: GET
+queryParams:
+  Page: "1"
+  RecordsPerPage: "10"
+settings: {}
+order: 1000

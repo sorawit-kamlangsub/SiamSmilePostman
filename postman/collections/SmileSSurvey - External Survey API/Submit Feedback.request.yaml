@@ -1,0 +1,24 @@
+$kind: http-request
+description: ส่ง feedback ตาม surveyQuestionId และ surveyAnswerId ที่ได้จาก Get Survey
+url: "{{baseUrl}}/api/external/surveys/{{surveyToken}}/feedback"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "answers": [
+        {
+          "surveyQuestionId": 1001,
+          "surveyAnswerIds": [2001]
+        },
+        {
+          "surveyQuestionId": 1002,
+          "surveyAnswerIds": [],
+          "answerMore": "ข้อความเพิ่มเติม เฉพาะคำถามที่ต้องกรอก text"
+        }
+      ]
+    }
+settings: {}
+order: 3000

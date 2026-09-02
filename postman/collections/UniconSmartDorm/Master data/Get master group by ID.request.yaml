@@ -1,0 +1,14 @@
+$kind: http-request
+description: "Generated from cURL: curl -X 'GET' \\\r
+
+  \  'https://localhost:44385/api/MasterDataManagement/Master/GetMasterGroupById?masterGroupId=6028835d-bc32-4cad-83a3-877500bf1c97' \\\r
+
+  \  -H 'accept: */*'"
+url: "{{API}}api/MasterDataManagement/Master/GetMasterGroupById?masterGroupId=6028835d-bc32-4cad-83a3-877500bf1c97"
+method: GET
+headers:
+  accept: "*/*"
+queryParams:
+  masterGroupId: 6028835d-bc32-4cad-83a3-877500bf1c97
+settings: {}
+order: 4000
