@@ -1,0 +1,7 @@
+$kind: http-request
+name: สถานะนะการโอนเงิน PaymentStatus
+url: "{{Endpoint}}api/Masters/GetPaymentStatuses"
+method: GET
+headers:
+  accept: text/plain
+order: 3000

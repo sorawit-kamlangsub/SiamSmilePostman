@@ -1,5 +1,5 @@
 $kind: http-request
-url: https://localhost:5001/api/AdditionalTransfer/SaveAdditionalTransfer
+url: "{{Endpoint}}api/AdditionalTransfer/SaveAdditionalTransfer"
 method: POST
 headers:
   - key: accept
@@ -14,13 +14,16 @@ body:
   type: json
   content: |-
     {
-      "caseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-      "payableAmount": 0,
-      "toBankId": 0,
-      "toBankName": "string",
-      "toBankAccountNo": "string",
-      "payeeTypeId": 0,
-      "payableCategoryId": 0,
-      "payableStatusId": 0
+        "caseId": "87D1304C-573C-4CCC-BAFD-AD2074B92F2E",
+        "claimNo": "CL690800000131",
+        "caseNo": "CC690CC690800000195900000038",
+        "totalNetPaidAmount": 1633,
+        "toBankId": 3,
+        "toBankName": "กรุงไทย",
+        "toBankAccountNo": "1821000002",
+        "toBankAccountName": "test",
+        "phoneNumber": "0937894742",
+        "adjustmentReasonId": 2,
+        "remark": "ทดสอบ ครั้งที่ 2 UAT"
     }
 order: 4000

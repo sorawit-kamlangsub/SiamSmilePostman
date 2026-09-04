@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{Endpoint}}api/AdditionalTransfer/AdditionalTransferMonitor?Page=1&recordsPerPage=10"
+method: POST
+headers:
+  accept: text/plain
+  Content-Type: application/json-patch+json
+queryParams:
+  Page: "1"
+  recordsPerPage: "10"
+body:
+  type: json
+  content: |-
+    {
+      "branceId": null,
+      "paymentStatusId": null
+    }
+order: 2000

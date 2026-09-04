@@ -1,0 +1,29 @@
+$kind: http-request
+url: "{{Endpoint}}api/Transfer/v1/CreateTransferResult"
+method: POST
+headers:
+  - key: accept
+    value: "*/*"
+  - key: Content-Type
+    value: application/json-patch+json
+  - key: accept
+    value: "*/*"
+  - key: Content-Type
+    value: application/json-patch+json
+body:
+  type: json
+  content: |-
+    {
+      "refCode": "D1DD62BE-A86D-4B0C-9848-C024F57DFF28",
+      "isSucceed": true,
+      "transRefNo": "TR690900000037",
+      "statusBank": "IC000",
+      "description": "Payment is Executed Successfully",
+      "descriptionTh": "การทำรายการชำระเงินของท่านเสร็จสมบูรณ์",
+      "transferDate": "2026-09-04 15:00:30.1435012",
+      "updatedDate": "2026-09-04 15:00:30.1435012",
+      "payResultStatusId": 2,
+      "payResultDescription": "สำเร็จ",
+      "transType": "transfer"
+    }
+order: 2000

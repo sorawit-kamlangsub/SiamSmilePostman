@@ -1,11 +1,10 @@
 $kind: http-request
-url: "{{Endpoint}}api/AdditionalTransfer/TransferHistory?caseId=BFCD4066-668B-4FE9-97D6-051B4EF00723"
+url: "{{Endpoint}}api/AdditionalTransfer/TransferHistory?caseId=9563b05e-85ff-450f-9ed1-dea49e12e008&Page=1&RecordsPerPage=10"
 method: GET
 headers:
-  - key: accept
-    value: text/plain
-  - key: accept
-    value: text/plain
+  accept: text/plain
 queryParams:
-  caseId: BFCD4066-668B-4FE9-97D6-051B4EF00723
+  caseId: 9563b05e-85ff-450f-9ed1-dea49e12e008
+  Page: "1"
+  RecordsPerPage: "10"
 order: 3000
