@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{Endpoint}}api/Masters/GetBankAccountRelationTypes"
+method: GET
+headers:
+  accept: text/plain
+order: 3000

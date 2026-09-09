@@ -1,9 +1,8 @@
 $kind: collection
-description: ""
 variables:
   baseUrl: "{{Endpoint}}api"
 auth:
-  - id: 78d47393-835b-40c4-ae75-ecc8aab4a757
+  - id: f01c739a-aaf0-411f-aa08-79232c3d7803
     type: oauth2
     name: oauth2 auth
     credentials:
