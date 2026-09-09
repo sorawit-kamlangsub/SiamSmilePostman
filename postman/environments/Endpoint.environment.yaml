@@ -1,6 +1,5 @@
 name: Endpoint
-color: null
 values:
-  - key: Endpoint
-    value: ""
-    enabled: true
+  - key: coreclaimEndpoint
+    secret: true
+color: 0

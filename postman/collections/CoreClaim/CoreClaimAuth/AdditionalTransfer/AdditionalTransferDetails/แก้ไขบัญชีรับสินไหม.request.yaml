@@ -1,0 +1,27 @@
+$kind: http-request
+url: "{{Endpoint}}/AdditionalTransfer/UpdateAdditionalTransfer"
+method: POST
+headers:
+  accept: text/plain
+  Content-Type: application/json-patch+json
+body:
+  type: json
+  content: |-
+    {
+        "bankAccountRelationTypeId": 2,
+        "toBankId": 3,
+        "toBankAccountNo": "1821000000",
+        "toBankAccountName": "test",
+        "totalNetPaidAmount": 55,
+        "phoneNumber": "0918780479",
+        "paymentId": "6DAAEBC4-3911-418A-9C99-CEEFF9C76B8F",
+        "caseId": "A1F5AF15-C907-476B-A337-F123A26445B3",
+        "casePayableId": "95e26d04-849a-4c29-b8d0-9db283d101f7",
+        "claimId": "BC08622C-15F4-487D-9AA2-15972F8FFC5F",
+        "toBankName": "กรุงไทย"
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{CoreClaimToken}}"
+order: 7000

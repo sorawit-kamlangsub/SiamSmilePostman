@@ -1,0 +1,13 @@
+$kind: collection
+auth:
+  type: oauth2
+  credentials:
+    addTokenTo: header
+    tokenName: "{{Token}}"
+    redirect_uri: https://localhost:5001/swagger/oauth2-redirect.html
+    authUrl: https://authlogin.uatsiamsmile.com/connect/authorize
+    accessTokenUrl: https://authlogin.uatsiamsmile.com/connect/token
+    clientId: admin-client_api_swaggerui
+    scope: openid profile roles coreclaim_api
+    grant_type: authorization_code_with_pkce
+order: 705451145560063

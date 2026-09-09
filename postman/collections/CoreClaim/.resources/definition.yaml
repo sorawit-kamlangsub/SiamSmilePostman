@@ -1,15 +1,7 @@
 $kind: collection
 variables:
   baseUrl: "{{Endpoint}}api"
+  Endpoint: ""
+  CoreClaimToken: ""
 auth:
-  - id: f01c739a-aaf0-411f-aa08-79232c3d7803
-    type: oauth2
-    name: oauth2 auth
-    credentials:
-      clientId: admin-client_api_swaggerui
-      accessTokenUrl: https://authlogin.uatsiamsmile.com/connect/token
-      authUrl: https://authlogin.uatsiamsmile.com/connect/authorize
-      tokenName: token
-      scope: openid profile roles ClaimFundAPI
-      redirect_uri: https://localhost:5001/swagger/oauth2-redirect.html
-      grant_type: authorization_code_with_pkce
+  type: noauth

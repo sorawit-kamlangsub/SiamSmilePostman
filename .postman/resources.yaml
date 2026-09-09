@@ -1,5 +1,8 @@
 workspace:
-  id: 8a93b2b8-9130-44c5-905c-992633952459
+  id: bcebdbc0-bca3-4eb0-b4e2-313671582bfa
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
 cloudResources:
   collections:
     ../postman/collections/coreclaim: 1742729-2a95332f-577b-4770-8916-28033ccdc7e0
@@ -10,8 +13,6 @@ cloudResources:
     ../postman/collections/UniconSmartDorm: 1742729-e97028b7-23cb-4889-a811-f5b9776734d2
   environments:
     ../postman/environments/Endpoint.environment.yaml: 1742729-48577cea-fdd9-45ff-898e-0096fd89bb62
-    ../postman/environments/Beta.environment.yaml: 36855597-a1698c37-01f6-4914-86c7-ebdf7ce40dc6
-    ../postman/environments/SMI_ENV.environment.yaml: 36855597-fb4572df-4b09-44a1-bd48-05a571d9efde
   globals:
     ../postman/globals/workspace.globals.yaml: 3204ea72-da16-480d-8c67-d534d9f976b8
   documents:

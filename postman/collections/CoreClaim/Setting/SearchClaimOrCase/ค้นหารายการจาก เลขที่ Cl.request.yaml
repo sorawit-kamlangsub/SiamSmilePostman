@@ -1,8 +1,0 @@
-$kind: http-request
-name: ค้นหารายการจาก เลขที่ ClaimNo / CaseNo
-url: "{{Endpoint}}api/Setting/SearchClaimOrCase?searchDetail=CLPA690800000089"
-method: GET
-queryParams:
-  searchDetail: CLPA690800000089
-settings: {}
-order: 1000
