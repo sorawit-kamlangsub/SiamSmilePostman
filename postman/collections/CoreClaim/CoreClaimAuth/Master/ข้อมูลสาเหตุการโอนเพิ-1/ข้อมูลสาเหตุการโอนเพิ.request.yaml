@@ -1,7 +1,12 @@
 $kind: http-request
 name: ข้อมูลสาเหตุการโอนเพิ่ม
-url: "{{Endpoint}}api/Masters/GetAdjustmentReasons"
+url: "{{coreclaimEndpoint}}/Masters/GetAdjustmentReasons?AdjustmentTypeId=2"
 method: GET
 headers:
   accept: text/plain
-order: 1000
+queryParams:
+  - key: AdjustmentTypeId
+    value: "2"
+    disabled: false
+    description: ""
+order: 2000

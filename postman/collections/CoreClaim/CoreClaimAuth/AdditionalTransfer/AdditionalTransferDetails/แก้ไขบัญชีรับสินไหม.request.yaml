@@ -21,7 +21,7 @@ body:
         "toBankName": "กรุงไทย"
     }
 auth:
-  type: bearer
+  type: inherit
   credentials:
-    token: "{{CoreClaimToken}}"
-order: 7000
+    id: folder-E58c14BaEEDbb493fDc1Dedc-oauth2
+order: 8000

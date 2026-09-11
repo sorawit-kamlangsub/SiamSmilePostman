@@ -1,5 +1,6 @@
 $kind: http-request
-url: "{{Endpoint}}api/AdditionalTransfer/TransferHistory?caseId=9563b05e-85ff-450f-9ed1-dea49e12e008&Page=1&RecordsPerPage=10"
+url: "{{Endpoint}}api/AdditionalTransfer/TransferHistory?caseId=9563b05e-85ff-4\
+  50f-9ed1-dea49e12e008&Page=1&RecordsPerPage=10"
 method: GET
 headers:
   accept: text/plain

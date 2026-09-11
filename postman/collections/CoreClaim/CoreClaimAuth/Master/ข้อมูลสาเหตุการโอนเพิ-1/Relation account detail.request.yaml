@@ -1,6 +1,6 @@
 $kind: http-request
-url: "{{Endpoint}}api/Masters/GetBankAccountRelationTypes"
+url: "{{Endpoint}}/Masters/GetBankAccountRelationTypes"
 method: GET
 headers:
   accept: text/plain
-order: 3000
+order: 4000

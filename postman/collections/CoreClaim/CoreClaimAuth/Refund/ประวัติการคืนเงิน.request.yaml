@@ -1,6 +1,5 @@
 $kind: http-request
-url: "{{Endpoint}}/AdditionalTransfer/GetClaimTransactions?caseId=9563b05e-85ff\
-  -450f-9ed1-dea49e12e008&Page=1&RecordsPerPage=10"
+url: "{{coreclaimEndpoint}}/Refund/GetDecreaseTransaction?caseId=9563b05e-85ff-450f-9ed1-dea49e12e008&Page=1&RecordsPerPage=10"
 method: GET
 headers:
   - key: accept
@@ -11,4 +10,4 @@ queryParams:
   caseId: 9563b05e-85ff-450f-9ed1-dea49e12e008
   Page: "1"
   RecordsPerPage: "10"
-order: 2000
+order: 4431927584434462

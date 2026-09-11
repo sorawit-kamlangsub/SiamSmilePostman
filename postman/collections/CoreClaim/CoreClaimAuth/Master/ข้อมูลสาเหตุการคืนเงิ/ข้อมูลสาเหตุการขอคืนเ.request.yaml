@@ -1,0 +1,12 @@
+$kind: http-request
+name: ข้อมูลสาเหตุการขอคืนเงิน
+url: "{{coreclaimEndpoint}}/Masters/GetAdjustmentReasons?AdjustmentTypeId=3"
+method: GET
+headers:
+  accept: text/plain
+queryParams:
+  - key: AdjustmentTypeId
+    value: "3"
+    disabled: false
+    description: ""
+order: 607717446936039
